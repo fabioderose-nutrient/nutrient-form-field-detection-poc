@@ -1,0 +1,240 @@
+{
+ "form": "membership-application",
+ "title": "Membership Application",
+ "held_out": false,
+ "pages": 1,
+ "page_size": [
+  595.2755905511812,
+  841.8897637795277
+ ],
+ "fields": [
+  {
+   "page": 1,
+   "name": "full_name",
+   "type": "text",
+   "label": "Full name",
+   "rect": [
+    102.7,
+    132,
+    545,
+    150
+   ]
+  },
+  {
+   "page": 1,
+   "name": "date_of_birth",
+   "type": "date",
+   "label": "Date of birth",
+   "rect": [
+    113.2,
+    160,
+    290,
+    178
+   ]
+  },
+  {
+   "page": 1,
+   "name": "phone_number",
+   "type": "phone",
+   "label": "Phone number",
+   "rect": [
+    379.4,
+    160,
+    545,
+    178
+   ]
+  },
+  {
+   "page": 1,
+   "name": "email_address",
+   "type": "email",
+   "label": "Email address",
+   "rect": [
+    122.1,
+    188,
+    545,
+    206
+   ]
+  },
+  {
+   "page": 1,
+   "name": "home_address",
+   "type": "text",
+   "label": "Home address",
+   "rect": [
+    123.8,
+    216,
+    545,
+    234
+   ]
+  },
+  {
+   "page": 1,
+   "name": "home_address_line_2",
+   "type": "text",
+   "label": "Home address (second line)",
+   "rect": [
+    121,
+    244,
+    545,
+    262
+   ]
+  },
+  {
+   "page": 1,
+   "name": "postcode",
+   "type": "text",
+   "label": "Postcode",
+   "rect": [
+    100.5,
+    272,
+    220,
+    290
+   ]
+  },
+  {
+   "page": 1,
+   "name": "membership_adult",
+   "type": "checkbox",
+   "label": "Membership type: Adult",
+   "rect": [
+    143.5,
+    349,
+    153.5,
+    359
+   ]
+  },
+  {
+   "page": 1,
+   "name": "membership_junior",
+   "type": "checkbox",
+   "label": "Membership type: Junior",
+   "rect": [
+    203.3,
+    349,
+    213.3,
+    359
+   ]
+  },
+  {
+   "page": 1,
+   "name": "membership_family",
+   "type": "checkbox",
+   "label": "Membership type: Family",
+   "rect": [
+    267.5,
+    349,
+    277.5,
+    359
+   ]
+  },
+  {
+   "page": 1,
+   "name": "membership_social",
+   "type": "checkbox",
+   "label": "Membership type: Social",
+   "rect": [
+    333.9,
+    349,
+    343.9,
+    359
+   ]
+  },
+  {
+   "page": 1,
+   "name": "rowed_before_yes",
+   "type": "checkbox",
+   "label": "Have you rowed before? Yes",
+   "rect": [
+    172.9,
+    377,
+    182.9,
+    387
+   ]
+  },
+  {
+   "page": 1,
+   "name": "rowed_before_no",
+   "type": "checkbox",
+   "label": "Have you rowed before? No",
+   "rect": [
+    227.2,
+    377,
+    237.2,
+    387
+   ]
+  },
+  {
+   "page": 1,
+   "name": "years_of_experience",
+   "type": "number",
+   "label": "Years of rowing experience",
+   "rect": [
+    179.9,
+    398,
+    300,
+    416
+   ]
+  },
+  {
+   "page": 1,
+   "name": "medical_conditions",
+   "type": "multiline",
+   "label": "Medical conditions or allergies",
+   "rect": [
+    50,
+    490,
+    545,
+    560
+   ]
+  },
+  {
+   "page": 1,
+   "name": "emergency_contact_name",
+   "type": "text",
+   "label": "Emergency contact name",
+   "rect": [
+    172.2,
+    574,
+    545,
+    592
+   ]
+  },
+  {
+   "page": 1,
+   "name": "emergency_contact_phone",
+   "type": "phone",
+   "label": "Emergency contact phone",
+   "rect": [
+    174.9,
+    602,
+    545,
+    620
+   ]
+  },
+  {
+   "page": 1,
+   "name": "signature",
+   "type": "signature",
+   "label": "Signature",
+   "rect": [
+    50,
+    724,
+    300,
+    742
+   ]
+  },
+  {
+   "page": 1,
+   "name": "signature_date",
+   "type": "date",
+   "label": "Date",
+   "rect": [
+    360,
+    724,
+    545,
+    742
+   ]
+  }
+ ]
+}

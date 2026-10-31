@@ -1,0 +1,300 @@
+{
+ "form": "supplier-registration",
+ "title": "Supplier Registration Form",
+ "held_out": false,
+ "pages": 2,
+ "page_size": [
+  595.2755905511812,
+  841.8897637795277
+ ],
+ "fields": [
+  {
+   "page": 1,
+   "name": "company_name",
+   "type": "text",
+   "label": "Registered company name",
+   "rect": [
+    50,
+    150,
+    545,
+    172
+   ]
+  },
+  {
+   "page": 1,
+   "name": "company_registration_number",
+   "type": "text",
+   "label": "Company registration number",
+   "rect": [
+    50,
+    195,
+    290,
+    217
+   ]
+  },
+  {
+   "page": 1,
+   "name": "vat_number",
+   "type": "text",
+   "label": "VAT number (optional)",
+   "rect": [
+    305,
+    195,
+    545,
+    217
+   ]
+  },
+  {
+   "page": 1,
+   "name": "street_address",
+   "type": "text",
+   "label": "Street address",
+   "rect": [
+    50,
+    240,
+    545,
+    262
+   ]
+  },
+  {
+   "page": 1,
+   "name": "town_or_city",
+   "type": "text",
+   "label": "Town or city",
+   "rect": [
+    50,
+    285,
+    290,
+    307
+   ]
+  },
+  {
+   "page": 1,
+   "name": "postcode",
+   "type": "text",
+   "label": "Postcode",
+   "rect": [
+    305,
+    285,
+    415,
+    307
+   ]
+  },
+  {
+   "page": 1,
+   "name": "country",
+   "type": "text",
+   "label": "Country",
+   "rect": [
+    430,
+    285,
+    545,
+    307
+   ]
+  },
+  {
+   "page": 1,
+   "name": "contact_name",
+   "type": "text",
+   "label": "Contact name",
+   "rect": [
+    50,
+    370,
+    290,
+    392
+   ]
+  },
+  {
+   "page": 1,
+   "name": "job_title",
+   "type": "text",
+   "label": "Job title",
+   "rect": [
+    305,
+    370,
+    545,
+    392
+   ]
+  },
+  {
+   "page": 1,
+   "name": "contact_email",
+   "type": "email",
+   "label": "Email address",
+   "rect": [
+    50,
+    415,
+    290,
+    437
+   ]
+  },
+  {
+   "page": 1,
+   "name": "contact_telephone",
+   "type": "phone",
+   "label": "Telephone",
+   "rect": [
+    305,
+    415,
+    545,
+    437
+   ]
+  },
+  {
+   "page": 1,
+   "name": "business_type_sole",
+   "type": "checkbox",
+   "label": "Type of business: Sole trader",
+   "rect": [
+    50,
+    487,
+    60,
+    497
+   ]
+  },
+  {
+   "page": 1,
+   "name": "business_type_partnership",
+   "type": "checkbox",
+   "label": "Type of business: Partnership",
+   "rect": [
+    300,
+    487,
+    310,
+    497
+   ]
+  },
+  {
+   "page": 1,
+   "name": "business_type_limited",
+   "type": "checkbox",
+   "label": "Type of business: Limited company",
+   "rect": [
+    50,
+    511,
+    60,
+    521
+   ]
+  },
+  {
+   "page": 1,
+   "name": "business_type_charity",
+   "type": "checkbox",
+   "label": "Type of business: Charity or non-profit",
+   "rect": [
+    300,
+    511,
+    310,
+    521
+   ]
+  },
+  {
+   "page": 1,
+   "name": "goods_and_services",
+   "type": "multiline",
+   "label": "Describe the goods or services you supply",
+   "rect": [
+    50,
+    600,
+    545,
+    690
+   ]
+  },
+  {
+   "page": 2,
+   "name": "bank_name",
+   "type": "text",
+   "label": "Bank name",
+   "rect": [
+    50,
+    150,
+    545,
+    172
+   ]
+  },
+  {
+   "page": 2,
+   "name": "account_holder_name",
+   "type": "text",
+   "label": "Account holder name",
+   "rect": [
+    50,
+    195,
+    545,
+    217
+   ]
+  },
+  {
+   "page": 2,
+   "name": "sort_code",
+   "type": "number",
+   "label": "Sort code",
+   "rect": [
+    50,
+    240,
+    200,
+    262
+   ]
+  },
+  {
+   "page": 2,
+   "name": "account_number",
+   "type": "number",
+   "label": "Account number",
+   "rect": [
+    215,
+    240,
+    415,
+    262
+   ]
+  },
+  {
+   "page": 2,
+   "name": "declaration_signature",
+   "type": "signature",
+   "label": "Signature",
+   "rect": [
+    50,
+    371,
+    350,
+    416
+   ]
+  },
+  {
+   "page": 2,
+   "name": "declaration_date",
+   "type": "date",
+   "label": "Date",
+   "rect": [
+    365,
+    371,
+    545,
+    393
+   ]
+  },
+  {
+   "page": 2,
+   "name": "declaration_name",
+   "type": "text",
+   "label": "Name in capitals",
+   "rect": [
+    50,
+    441,
+    350,
+    463
+   ]
+  },
+  {
+   "page": 2,
+   "name": "declaration_position",
+   "type": "text",
+   "label": "Position in the company",
+   "rect": [
+    365,
+    441,
+    545,
+    463
+   ]
+  }
+ ]
+}

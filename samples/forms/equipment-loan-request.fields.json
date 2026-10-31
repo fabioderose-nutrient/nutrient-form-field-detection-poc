@@ -1,0 +1,300 @@
+{
+ "form": "equipment-loan-request",
+ "title": "Equipment Loan Request",
+ "held_out": false,
+ "pages": 1,
+ "page_size": [
+  595.2755905511812,
+  841.8897637795277
+ ],
+ "fields": [
+  {
+   "page": 1,
+   "name": "borrower_name",
+   "type": "text",
+   "label": "Name",
+   "rect": [
+    200,
+    128,
+    545,
+    152
+   ]
+  },
+  {
+   "page": 1,
+   "name": "department",
+   "type": "text",
+   "label": "Department",
+   "rect": [
+    200,
+    152,
+    545,
+    176
+   ]
+  },
+  {
+   "page": 1,
+   "name": "staff_id",
+   "type": "text",
+   "label": "Staff ID",
+   "rect": [
+    200,
+    176,
+    545,
+    200
+   ]
+  },
+  {
+   "page": 1,
+   "name": "borrower_email",
+   "type": "email",
+   "label": "Email",
+   "rect": [
+    200,
+    200,
+    545,
+    224
+   ]
+  },
+  {
+   "page": 1,
+   "name": "phone_extension",
+   "type": "phone",
+   "label": "Phone extension",
+   "rect": [
+    200,
+    224,
+    545,
+    248
+   ]
+  },
+  {
+   "page": 1,
+   "name": "item_1",
+   "type": "text",
+   "label": "Item, row 1",
+   "rect": [
+    50,
+    312,
+    295,
+    336
+   ]
+  },
+  {
+   "page": 1,
+   "name": "serial_number_1",
+   "type": "text",
+   "label": "Serial number, row 1",
+   "rect": [
+    295,
+    312,
+    495,
+    336
+   ]
+  },
+  {
+   "page": 1,
+   "name": "quantity_1",
+   "type": "number",
+   "label": "Quantity, row 1",
+   "rect": [
+    495,
+    312,
+    545,
+    336
+   ]
+  },
+  {
+   "page": 1,
+   "name": "item_2",
+   "type": "text",
+   "label": "Item, row 2",
+   "rect": [
+    50,
+    336,
+    295,
+    360
+   ]
+  },
+  {
+   "page": 1,
+   "name": "serial_number_2",
+   "type": "text",
+   "label": "Serial number, row 2",
+   "rect": [
+    295,
+    336,
+    495,
+    360
+   ]
+  },
+  {
+   "page": 1,
+   "name": "quantity_2",
+   "type": "number",
+   "label": "Quantity, row 2",
+   "rect": [
+    495,
+    336,
+    545,
+    360
+   ]
+  },
+  {
+   "page": 1,
+   "name": "item_3",
+   "type": "text",
+   "label": "Item, row 3",
+   "rect": [
+    50,
+    360,
+    295,
+    384
+   ]
+  },
+  {
+   "page": 1,
+   "name": "serial_number_3",
+   "type": "text",
+   "label": "Serial number, row 3",
+   "rect": [
+    295,
+    360,
+    495,
+    384
+   ]
+  },
+  {
+   "page": 1,
+   "name": "quantity_3",
+   "type": "number",
+   "label": "Quantity, row 3",
+   "rect": [
+    495,
+    360,
+    545,
+    384
+   ]
+  },
+  {
+   "page": 1,
+   "name": "loan_start_date",
+   "type": "date",
+   "label": "Start date",
+   "rect": [
+    160,
+    418,
+    322.5,
+    442
+   ]
+  },
+  {
+   "page": 1,
+   "name": "return_date",
+   "type": "date",
+   "label": "Return date",
+   "rect": [
+    432.5,
+    418,
+    545.0,
+    442
+   ]
+  },
+  {
+   "page": 1,
+   "name": "purpose_teaching",
+   "type": "checkbox",
+   "label": "Purpose: Teaching",
+   "rect": [
+    50,
+    491,
+    60,
+    501
+   ]
+  },
+  {
+   "page": 1,
+   "name": "purpose_research",
+   "type": "checkbox",
+   "label": "Purpose: Research",
+   "rect": [
+    136.1,
+    491,
+    146.1,
+    501
+   ]
+  },
+  {
+   "page": 1,
+   "name": "purpose_event",
+   "type": "checkbox",
+   "label": "Purpose: Event",
+   "rect": [
+    223.9,
+    491,
+    233.9,
+    501
+   ]
+  },
+  {
+   "page": 1,
+   "name": "purpose_other",
+   "type": "checkbox",
+   "label": "Purpose: Other",
+   "rect": [
+    294.5,
+    491,
+    304.5,
+    501
+   ]
+  },
+  {
+   "page": 1,
+   "name": "purpose_other_details",
+   "type": "text",
+   "label": "If other, please describe",
+   "rect": [
+    165.5,
+    512,
+    545,
+    530
+   ]
+  },
+  {
+   "page": 1,
+   "name": "manager_name",
+   "type": "text",
+   "label": "Manager name",
+   "rect": [
+    200,
+    582,
+    545,
+    612
+   ]
+  },
+  {
+   "page": 1,
+   "name": "manager_signature",
+   "type": "signature",
+   "label": "Manager signature",
+   "rect": [
+    200,
+    612,
+    545,
+    642
+   ]
+  },
+  {
+   "page": 1,
+   "name": "date_approved",
+   "type": "date",
+   "label": "Date approved",
+   "rect": [
+    200,
+    642,
+    545,
+    672
+   ]
+  }
+ ]
+}

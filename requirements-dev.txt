@@ -1,0 +1,2 @@
+# Only for tests/check_export.py (drives the page in a headless browser).
+playwright==1.64.1

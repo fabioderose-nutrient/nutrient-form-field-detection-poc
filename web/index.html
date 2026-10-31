@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form field detection review</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.cloud.pspdfkit.com/pspdfkit-web@1.24.0/nutrient-viewer.js"></script>
+</head>
+<body>
+  <header class="top">
+    <h1>Form field detection</h1>
+    <span class="top-meta" id="meta"></span>
+  </header>
+  <main class="layout">
+    <aside class="side">
+      <div class="side-title">Flat forms</div>
+      <div class="forms" id="forms"></div>
+      <label class="upload">
+        <input type="file" id="upload" accept="application/pdf">
+        <span>Upload a PDF form</span>
+      </label>
+      <div class="side-title">Detection</div>
+      <div class="summary" id="summary">Pick a form.</div>
+    </aside>
+    <section class="viewer-pane">
+      <div class="viewer-head">
+        <span id="viewer-title">No form open</span>
+        <span id="viewer-status" class="viewer-status"></span>
+      </div>
+      <div class="viewer-body">
+        <div id="viewer"></div>
+        <div class="viewer-empty" id="viewer-empty">Pick a form on the left.</div>
+      </div>
+    </section>
+    <aside class="side fields-pane">
+      <div class="fields-head">
+        <div class="side-title">Fields <span id="field-count"></span></div>
+        <button id="export" disabled>Export fillable PDF</button>
+      </div>
+      <div class="export-result" id="export-result" hidden></div>
+      <div class="fields" id="fields"></div>
+    </aside>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

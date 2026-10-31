@@ -1,0 +1,240 @@
+{
+ "form": "incident-report",
+ "title": "Workplace Incident Report",
+ "held_out": false,
+ "pages": 1,
+ "page_size": [
+  595.2755905511812,
+  841.8897637795277
+ ],
+ "fields": [
+  {
+   "page": 1,
+   "name": "reported_by",
+   "type": "text",
+   "label": "Reported by",
+   "rect": [
+    110.0,
+    132,
+    276.8,
+    150
+   ]
+  },
+  {
+   "page": 1,
+   "name": "job_title",
+   "type": "text",
+   "label": "Job title",
+   "rect": [
+    326.9,
+    132,
+    449.2,
+    150
+   ]
+  },
+  {
+   "page": 1,
+   "name": "phone",
+   "type": "phone",
+   "label": "Phone",
+   "rect": [
+    84.5,
+    160,
+    240.2,
+    178
+   ]
+  },
+  {
+   "page": 1,
+   "name": "incident_date",
+   "type": "date",
+   "label": "Date of incident",
+   "rect": [
+    125.0,
+    230,
+    225.1,
+    248
+   ]
+  },
+  {
+   "page": 1,
+   "name": "incident_time",
+   "type": "text",
+   "label": "Time",
+   "rect": [
+    262.9,
+    230,
+    329.6,
+    248
+   ]
+  },
+  {
+   "page": 1,
+   "name": "location",
+   "type": "text",
+   "label": "Location",
+   "rect": [
+    93.4,
+    258,
+    504.8,
+    276
+   ]
+  },
+  {
+   "page": 1,
+   "name": "incident_type_injury",
+   "type": "checkbox",
+   "label": "Type of incident: Injury",
+   "rect": [
+    50,
+    315,
+    60,
+    325
+   ]
+  },
+  {
+   "page": 1,
+   "name": "incident_type_near",
+   "type": "checkbox",
+   "label": "Type of incident: Near miss",
+   "rect": [
+    109.5,
+    315,
+    119.5,
+    325
+   ]
+  },
+  {
+   "page": 1,
+   "name": "incident_type_property",
+   "type": "checkbox",
+   "label": "Type of incident: Property damage",
+   "rect": [
+    189.4,
+    315,
+    199.4,
+    325
+   ]
+  },
+  {
+   "page": 1,
+   "name": "incident_type_vehicle",
+   "type": "checkbox",
+   "label": "Type of incident: Vehicle",
+   "rect": [
+    301.1,
+    315,
+    311.1,
+    325
+   ]
+  },
+  {
+   "page": 1,
+   "name": "incident_type_other",
+   "type": "checkbox",
+   "label": "Type of incident: Other",
+   "rect": [
+    368.9,
+    315,
+    378.9,
+    325
+   ]
+  },
+  {
+   "page": 1,
+   "name": "description",
+   "type": "multiline",
+   "label": "Describe what happened",
+   "rect": [
+    50,
+    366,
+    545,
+    456
+   ]
+  },
+  {
+   "page": 1,
+   "name": "first_aid_yes",
+   "type": "checkbox",
+   "label": "Was first aid given? Yes",
+   "rect": [
+    173.5,
+    479,
+    183.5,
+    489
+   ]
+  },
+  {
+   "page": 1,
+   "name": "first_aid_no",
+   "type": "checkbox",
+   "label": "Was first aid given? No",
+   "rect": [
+    219.3,
+    479,
+    229.3,
+    489
+   ]
+  },
+  {
+   "page": 1,
+   "name": "witness_name",
+   "type": "text",
+   "label": "Witness name",
+   "rect": [
+    118.9,
+    500,
+    313.5,
+    518
+   ]
+  },
+  {
+   "page": 1,
+   "name": "witness_phone",
+   "type": "phone",
+   "label": "Witness phone",
+   "rect": [
+    121.7,
+    528,
+    260.7,
+    546
+   ]
+  },
+  {
+   "page": 1,
+   "name": "reporter_signature",
+   "type": "signature",
+   "label": "Signature of person reporting",
+   "rect": [
+    185.1,
+    604,
+    374.1,
+    622
+   ]
+  },
+  {
+   "page": 1,
+   "name": "report_date",
+   "type": "date",
+   "label": "Date",
+   "rect": [
+    76.7,
+    632,
+    187.9,
+    650
+   ]
+  },
+  {
+   "page": 1,
+   "name": "reviewed_by",
+   "type": "text",
+   "label": "Reviewed by (manager)",
+   "rect": [
+    161.7,
+    674,
+    328.5,
+    692
+   ]
+  }
+ ]
+}
